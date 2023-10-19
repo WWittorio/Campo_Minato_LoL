@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Campo Minato - LoL</title>
+    <link rel="icon" type="image/x-icon" href="LOL Assets/LoL_Icon_Rendered/LoL_Icon_Rendered_Hi-Res.png">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-bg">
+      <div class="game-container">
+        <div class="head">
+          <!-- Title -->
+          <div class="title">
+            <img
+              class="lol-logo"
+              src="LOL Assets/LoL_Icon_Rendered/LoL_Icon_Rendered_Hi-Res.png"
+              alt=""
+            />
+            <h1>League of Miners</h1>
+          </div>
+          <!-- Score-board -->
+          <div class="score-board">
+            <span>SCORE</span>
+            <span class="score-counter">0000</span>
+          </div>
+        </div>
+        <!-- Game-board -->
+        <div class="game-grid">
+        </div>
+
+          <!-- Lose Screen -->
+          <div class="lose-screen hidden">
+            <img class="lose-img" src="LOL Assets/defeat-img.png" alt="">
+            <button class="play-again-button">
+              Riprova! (Rischia il ferro 2)
+            </button>
+          </div>
+
+          <!-- Win Screen -->
+          <div class="win-screen hidden">
+            <img class="win-img" src="LOL Assets/victory-img.png" alt="">
+            <button class="play-again-button">
+              GG WP
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script type="text/Javascript" src="script.js"></script>
+  </body>
+</html>
